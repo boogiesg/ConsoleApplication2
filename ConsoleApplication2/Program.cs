@@ -32,6 +32,7 @@ namespace Tetris
 
         static void Main()
         {
+
             SoundPlayer sp = new SoundPlayer();
             sp.SoundLocation = Environment.CurrentDirectory + "\\01_Tetris_NES_Music_1.wav";
             sp.PlayLooping();
